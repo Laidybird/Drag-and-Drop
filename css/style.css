@@ -9,3 +9,60 @@
 body {
     background-color: #5372ef;
 }
+/*Styling the container*/
+.container {
+    width: 90%;
+    max-width: 37.5em;
+    background-color: #ffffff;
+    padding: 3em 0.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.8em;
+    border: 3px solid #010c39;
+
+
+}
+/*Styling the h3*/
+h3 {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 2em auto;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1.7em;
+    color: #010c39;
+
+}
+/*Draggable object styling*/
+.draggable-objects,
+.drop-points {
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}  
+
+.draggable-image {
+    width: 8em;
+    cursor: move;
+}
+
+img {
+    width: 8em;
+    filter: drop-shadow()
+}
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
+     
